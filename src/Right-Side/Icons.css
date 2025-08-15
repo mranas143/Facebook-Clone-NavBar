@@ -1,0 +1,104 @@
+.menu-icon {
+  width: 22px;
+  height: 21px;
+  background-color: #e4e6eb;
+  border-radius: 50%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px;
+  margin-left: 20px;
+  padding: 10px;
+  justify-items: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu-icon:hover {
+  background-color: #d8dadf;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background-color: black;
+  border-radius: 50%;
+}
+ 
+.menue-icon.active::after {
+  background-color: #1877f2; /* Facebook Blue */
+  color: aqua;
+}
+                                  /* .................... */
+
+
+.messenger-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #e4e6eb;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+.messenger-icon:hover {
+  background-color: #d8dadf;
+}
+
+
+                                                   /* ...................... */
+
+
+.notification-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #e4e6eb;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.notification-icon i {
+  color: black;
+}
+
+.badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background-color: red;
+  color: white;
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+.notification-icon:hover {
+  background-color: #d8dadf;
+}
+
+
+                                             /* ....................... */
+
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #e4e6eb;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+.profile-icon:hover {
+  background-color: #d8dadf;
+}

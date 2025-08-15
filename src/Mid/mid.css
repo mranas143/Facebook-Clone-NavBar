@@ -1,0 +1,14 @@
+.home-icon-outline {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+}
+
+.home-icon-outline:hover {
+  background-color: #e4e6eb;
+}
